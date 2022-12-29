@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Music</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="player" id="player">
+        <div id="Title">
+            <marquee behavior="" direction="" id="title">The night will Always Win - Elbow</marquee>
+        </div>
+
+        <div class="image">
+            <img src="./images/disc_img.png" alt="" class="bgimg" id="disc">
+        </div>
+
+        <div class="audiocontrol">
+            <audio src="./music/The_night_will_always_win.mp3" controls class="audioctrl"></audio>
+        </div>
+
+        <div class="controlbtns">
+            <i class="fas fa-step-backward" id="previous"></i>
+            <i class="fas fa-compact-disc pp" id="play"></i>
+            <i class="fas fa-step-forward" id="next"></i>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="./script.js"></script>
+
+</html>
